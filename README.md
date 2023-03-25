@@ -1,2 +1,3 @@
 # first-trial
-first trial @ Beau website
+first trial @ Beau website using html and css. javascript is coming later.
+
