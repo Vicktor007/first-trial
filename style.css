@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: 1px solid red;
 }
 
 body {
@@ -11,9 +12,40 @@ body {
 }
 
 header {
-    height: ;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
 }
 
-header img {
+.search-logo-cart {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+}
 
+.search-logo-cart input {
+    height: 50%;
+}
+
+.search-logo-cart h1 {
+    width: 30%;
+}
+
+.search-logo-cart h1 img {
+    height: 49%;
+    width: 7%;
+}
+
+.cart-image {
+    height: 50%;
+    width: 3%;
+}
+
+.categories {
+    height: 50%;
+    width: 100%;
 }

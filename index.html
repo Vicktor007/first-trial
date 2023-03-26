@@ -9,16 +9,19 @@
 </head>
 <body>
     <header>
-        <input type="search" name="search-bar" id="search-bar" placeholder="search categories">
-        <h1>BEAU <img src="/images/dark.jfif" alt="logo"></h1>
-        <img src="/images/dark.jfif" alt="cart-image">
+        <div class="search-logo-cart"> 
+            <input type="search" name="search-bar" id="search-bar" placeholder="search categories">
+            <h1>BEAU <img src="/images/dark.jfif" alt="logo"></h1>
+            <img src="/images/dark.jfif" alt="cart-image" class="cart-image">
+        </div>  
+        <nav class="categories">
+            <a href="#shoes">Shoes</a>
+            <a href="#bags">Bags</a>
+            <a href="#wigs">Wigs</a>
+            <a href="#jewelleries">Jewelleries</a>
+        </nav>
     </header>
-    <nav class="categories">
-        <a href="#shoes">Shoes</a>
-        <a href="#bags">Bags</a>
-        <a href="#wigs">Wigs</a>
-        <a href="#jewelleries">Jewelleries</a>
-    </nav>
+    
     <section class="hero-image">
         <h1>Beauty by BEAU</h1>
     </section>
@@ -82,7 +85,7 @@
             <h3>NEWSLETTER</h3>
             <p>Subscribe today for New Updates</p>
             <input type="email" name="semail" id="email" placeholder="Enter your email here.....">
-            <input type="button" value="button">
+            <input type="button" value="Subscribe">
         </div>
     </footer>
 </body>
