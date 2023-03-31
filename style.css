@@ -24,20 +24,41 @@ header {
     width: 100%;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     
 }
 
 .search-logo-cart input {
     height: 50%;
+    border-radius:  5px 0 0 5px ;
+}
+
+button {
+    width: 2%;
+    height: 50%;
+    margin-left: -30%;
+    border-radius: 0 5px 5px 0;
+
+}
+
+button img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 0 5px 5px 0;
 }
 
 .search-logo-cart h1 {
-    width: 30%;
+    width: 12%;
+    height: 100%;
+    text-align: center;
+    padding-top: 0.3%;
+    margin-left: -15%;
 }
 
 .search-logo-cart h1 img {
+    width: 10%;
     height: 49%;
-    width: 7%;
 }
 
 .cart-image {
@@ -48,4 +69,67 @@ header {
 .categories {
     height: 50%;
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 5%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.hero-image {
+    height: 60vh;
+    background-image: url(/images/dark.jfif);
+    color: white;
+}
+
+.hero-image h1 {
+    height: 100%;
+    font-size: 50px;
+    padding-top: 8%;
+    padding-left: 8%;
+}
+
+.product-cards {
+    height: 90vh;
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; */
+    
+}
+
+.product-cards h2 {
+    height: 10%;
+    width: 100%;
+    padding-top: 1%;
+}
+.product-cards, .product-cards div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 3%,
+}
+
+.product-cards div {
+    height: 40%;
+    width: 48%;
+    margin: 0 auto 0 auto;
+}
+
+.product-cards div p, .product-cards div img {
+height: 100%;
+width: 49%;
+text-align: center;
+
+}
+
+.product-cards h2, .product-cards div p {
+     text-align: center;  
+}
+
+.product-cards div p {
+    padding-top: 20%;
 }
