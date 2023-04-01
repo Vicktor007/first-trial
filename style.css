@@ -7,6 +7,9 @@
     box-sizing: border-box;
     border: 1px solid red;
 }
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     background-color: blueviolet;
@@ -182,4 +185,70 @@ text-align: center;
 .trending-products {
     height: 35%;
     width: 23%;
+    background-image: url(/images/dark.jfif);
+    color: white;
 }
+
+.trending-products p {
+    margin-top: 50%;
+}
+
+.trending-products p, .trending-products span {
+    display: block;
+    text-align: center;
+}
+
+/* trending products ends */
+
+/* blog section */
+
+.blog {
+    height: 50vh;
+}
+
+.wig-article {
+    width: 40%;
+    margin: 0 auto 0 auto;
+    height: 100%;
+    background-image: url(/images/dark.jfif);
+    color: white;
+}
+
+.wig-article h2 {
+    height: 100%;
+    text-align: center;
+}
+
+/* blog section ends */
+
+ /* footer */
+
+footer {
+    height: 25vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 5vh;
+}
+
+ .about, .shop, .support, .Newsletter {
+    width: 20%;
+    height: 100%;
+ }
+
+ .about p {
+    height: 90%;
+ }
+
+ .shop a, .support a {
+    display: block;
+    margin-top: 5%;
+ }
+
+ .Newsletter p, .Newsletter input {
+    margin-top: 5%;
+ }
+
+
+
