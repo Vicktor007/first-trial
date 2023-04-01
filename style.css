@@ -54,16 +54,16 @@ button img {
 }
 
 .search-logo-cart h1 {
-    width: 12%;
+    width: 15%;
     height: 70%;
     text-align: center;
     margin-left: -15%;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .search-logo-cart h1 img {
-    width: 10%;
-    height: 25px;
+    width: 15px;
+    height: 15px;
     /* vertical-align */
 }
 
@@ -237,6 +237,14 @@ footer {
     height: 100%;
  }
 
+ footer h3 {
+    font-size: 15px;
+ }
+
+ footer a, footer p, footer input {
+    font-size: 10px;
+ }
+
  .about p {
     height: 90%;
  }
@@ -249,6 +257,8 @@ footer {
  .Newsletter p, .Newsletter input {
     margin-top: 5%;
  }
+
+/* footer ends */
 
 
 
