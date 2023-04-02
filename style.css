@@ -5,10 +5,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 html {
     scroll-behavior: smooth;
+    font-size: 15px;
 }
 
 body {
@@ -53,18 +54,25 @@ button img {
     border-radius: 0 5px 5px 0;
 }
 
-.search-logo-cart h1 {
-    width: 15%;
-    height: 70%;
-    text-align: center;
-    margin-left: -15%;
-    font-size: 20px;
+.title-logo {
+    width: 8%;
+    height: 100%;
+    margin-left: -15%; 
 }
 
-.search-logo-cart h1 img {
-    width: 15px;
-    height: 15px;
-    /* vertical-align */
+.title-logo h1 {
+    width: 70%;
+    height: 80%;
+    display: inline-block;
+    font-size: 1.5rem;
+    vertical-align: bottom;
+}
+
+.logo {
+    width: 20%;
+    height: 90%;
+    /* vertical-align: middle; */
+    display: inline-block;
 }
 
 .cart-image {
@@ -175,7 +183,7 @@ text-align: center;
     padding-bottom: 2%;
 }
 
-.trending-products-header h4 {
+.trending-products-header a {
     height: 50%;
     width: 10%;
     text-align: center;
@@ -191,6 +199,7 @@ text-align: center;
 
 .trending-products p {
     margin-top: 50%;
+
 }
 
 .trending-products p, .trending-products span {
