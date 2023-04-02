@@ -1,0 +1,102 @@
+*,
+*::before,
+*::after {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   /* border: 1px solid red; */
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+h3 {
+    height: 10vh;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-top: 1.5%;
+}
+
+main {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30% 10%;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+main div {
+    width: 20%;
+    
+}
+
+main div img {
+    height: 70%;
+    width: 100%;
+}
+
+main div p {
+    text-align: center;
+}
+
+main div p span {
+    display: block;
+}
+
+footer {
+    height: 25vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 5vh;
+    background-color: black;
+    color: white;
+}
+
+ .about, .shop, .support, .Newsletter {
+    width: 20%;
+    height: 100%;
+ }
+
+ footer h3 {
+    font-size: 15px;
+    text-align: center;
+    padding-top: 10%;
+    height: 40%;
+ }
+ .Newsletter h3 {
+    text-align: start;
+ }
+
+ footer a, footer p, footer input {
+    font-size: 10px;
+ }
+
+ .about p {
+    height: 60%;
+ }
+
+ .shop a, .support a {
+    display: block;
+    margin-top: 5%;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+ }
+
+ .Newsletter p, .Newsletter input {
+    margin-top: 5%;
+    
+ }
+
+/* footer ends */
+
+
+
