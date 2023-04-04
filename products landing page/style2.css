@@ -1,0 +1,55 @@
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid red;
+}
+
+
+html {
+    scroll-behavior: smooth;
+    font-size: 15px;
+}
+
+header {
+    height: 20vh;
+}
+
+.search-logo-cart, .categories {
+    height: 49%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.search-logo-cart {
+    
+}
+
+.categories {
+    /* justify-content: space-evenly; */
+    column-gap: 3%;
+}
+
+
+.search-logo-cart .search-div,
+ .search-logo-cart .title-logo  {
+     width: 20%;
+}
+
+.search-logo-cart .search-div img {
+     width: ;
+}
+
+
+.search-logo-cart .title-logo h1 {
+     display: inline-block;
+}
+
+
+
+
