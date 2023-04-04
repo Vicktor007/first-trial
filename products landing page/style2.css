@@ -100,5 +100,71 @@ a {
 }
 
 
+main {
+    height: 80vh;
+}
+
+main, .cards {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 2%;
+}
+
+.cards {
+    width: 30%;
+    height: 100%;
+    justify-content: center;
+    
+}
+
+.big-card {
+    width: 100%;
+    height: 70%;
+}
+
+.big-card, .small-card {
+    background-image: url(./images/dark.jfif);
+}
+
+.small-card {
+    width: 30%;
+    height: 20%;
+}
+
+.details {
+    width: 30%;
+    height: 100%;
+}
+
+.product-name, .product-price, .ratings {
+    width: 50%;
+}
+
+.quantity-control {
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 9.3%;
+    
+}
+
+.ratings .qty {
+    width: 40%;
+    text-align: center;
+    margin: 0 auto 0 auto;
+}
+
+button {
+    width: 50%;
+    height: 10%;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+
+
 
 
