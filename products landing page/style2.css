@@ -15,7 +15,7 @@ html {
 }
 
 header {
-    height: 20vh;
+    height: 15vh;
 }
 
 .search-logo-cart, .categories {
@@ -44,6 +44,10 @@ header {
  .title-logo {
     margin-left: 15%;
     width: 10%;
+}
+
+.title-logo h1 {
+    font-size: 1.5rem;
 }
 
 .search-div {
@@ -92,6 +96,7 @@ a {
     color: black;
     height: 50%;
     align-self: center;
+    padding-top: 0.2%;
 }
 
 
