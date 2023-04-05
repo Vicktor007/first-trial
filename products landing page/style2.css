@@ -159,9 +159,6 @@ main, .cards {
     margin: 0 auto 0 auto;
 }
 
-/* .ratings img {
-    background-color: yellow;
-} */
 
 .details button {
     width: 50%;
@@ -172,17 +169,14 @@ main, .cards {
     margin-top: 5%;
 }
 
-
-
 section {
-    width: 100vw;
+    width: 100%;
     height: 30vw;
 }
 
 h2 {
     height: 10%;
 }
-
 
 .card {
     height: 90%;
@@ -206,6 +200,37 @@ h2, .the-products h5, .the-products p {
     text-align: center;
 }
 
+footer {
+    height: 25vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 5vh;
+}
 
+ .about, .shop, .support, .Newsletter {
+    width: 20%;
+    height: 100%;
+ }
 
+ footer h3 {
+    font-size: 15px;
+ }
 
+ footer a, footer p, footer input {
+    font-size: 10px;
+ }
+
+ .about p {
+    height: 90%;
+ }
+
+ .shop a, .support a {
+    display: block;
+    height: 20%;
+ }
+
+ .Newsletter p, .Newsletter input {
+    margin-top: 5%;
+ }
