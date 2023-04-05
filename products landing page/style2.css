@@ -59,12 +59,14 @@ header {
     width: 75%;
     height: 40%;
     border-radius: 5px 0 0 5px;
+    /* align-self: center; */
 }
 
 .search-div button {
     width: 10%;
     height: 40%;
     border-radius: 0 5px 5px 0;
+    align-self: center;
 }
 
 .search-logo-cart .search-div img {
@@ -114,7 +116,7 @@ main, .cards {
     width: 30%;
     height: 100%;
     justify-content: center;
-    
+    margin-left: 5.5%;
 }
 
 .big-card {
@@ -142,11 +144,12 @@ main, .cards {
 
 .quantity-control {
     width: 40%;
+    height: 10%;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     column-gap: 9.3%;
+    margin: 0 auto 0 auto;
     
 }
 
@@ -156,14 +159,52 @@ main, .cards {
     margin: 0 auto 0 auto;
 }
 
-button {
+/* .ratings img {
+    background-color: yellow;
+} */
+
+.details button {
     width: 50%;
     height: 10%;
     background-color: black;
     color: white;
     border-radius: 10px;
+    margin-top: 5%;
 }
 
+
+
+section {
+    width: 100vw;
+    height: 30vw;
+}
+
+h2 {
+    height: 10%;
+}
+
+
+.card {
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 3%;
+}
+
+    .the-products {
+      width: 20%;
+      height: 100%;
+    }
+.the-products img {
+width: 100%;
+height: 80%;
+}
+
+h2, .the-products h5, .the-products p {
+    text-align: center;
+}
 
 
 
