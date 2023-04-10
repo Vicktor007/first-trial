@@ -113,8 +113,6 @@ main, .cards {
 }
 
 .cards {
-    width: 30%;
-    height: 100%;
     justify-content: center;
     margin-left: 5.5%;
 }
@@ -133,8 +131,8 @@ main, .cards {
     height: 20%;
 }
 
-.details {
-    width: 30%;
+.details, .cards{
+    width: 45%;
     height: 100%;
 }
 
