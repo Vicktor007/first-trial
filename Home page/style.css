@@ -12,9 +12,6 @@ html {
     font-size: 15px;
 }
 
-body {
-    background-color: blueviolet;
-}
 
 /* header style start */
 header {
@@ -98,7 +95,7 @@ a {
 /* hero-image section */
 .hero-image {
     height: 60vh;
-    background-image: url(/images/dark.jfif);
+    background-image: url(./images/dark.jfif);
     color: white;
 }
 
@@ -115,16 +112,12 @@ a {
 /* product cards section */
 .product-cards {
     height: 90vh;
-    /* display: flex;
-    flex-direction: row;
-    flex-wrap: wrap; */
-    
 }
 
 .product-cards h2 {
-    height: 10%;
+    height: 5%;
     width: 100%;
-    padding-top: 1%;
+    margin-top: 5%;
 }
 .product-cards, .product-cards div {
     display: flex;
@@ -163,16 +156,15 @@ text-align: center;
     column-gap: 2%;
 }
 
-.trending, .trending-products-header {
+.trending, .trending-products-header, .trending-products {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
 }
 
 .trending-products-header {
-    height: 13%;
-    column-gap: 5%;
+    height: 10%;
+    column-gap: 10%;
     width: 100%;
 }
 
@@ -193,16 +185,12 @@ text-align: center;
 .trending-products {
     height: 35%;
     width: 23%;
-    background-image: url(/images/dark.jfif);
+    background-image: url(./images/dark.jfif);
     color: white;
+    align-items: flex-end;
 }
 
-.trending-products p {
-    margin-top: 50%;
-
-}
-
-.trending-products p, .trending-products span {
+ .trending-products span {
     display: block;
     text-align: center;
 }
@@ -216,10 +204,10 @@ text-align: center;
 }
 
 .wig-article {
-    width: 40%;
+    width: 50%;
     margin: 0 auto 0 auto;
     height: 100%;
-    background-image: url(/images/dark.jfif);
+    background-image: url(./images/dark.jfif);
     color: white;
 }
 
@@ -239,6 +227,8 @@ footer {
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-top: 5vh;
+    background-color: black;
+    color: white;
 }
 
  .about, .shop, .support, .Newsletter {
@@ -261,6 +251,7 @@ footer {
  .shop a, .support a {
     display: block;
     margin-top: 5%;
+    color: white;
  }
 
  .Newsletter p, .Newsletter input {
@@ -269,5 +260,38 @@ footer {
 
 /* footer ends */
 
+@media (max-width: 750px) {
+    .Newsletter input {
+        width: 113%;
+    }
+
+    .product-cards {
+        height: 150vh;
+    }
+
+    .product-cards div {
+        height: 22%;
+        width: 100%;
+    }
+
+    .product-cards .last {
+        margin-bottom: 10%;
+    }
+
+    .trending {
+        height: 110vh;
+        margin-bottom: 10%;
+    }
+
+    .trending-products {
+        width: 45%;
+        height: 22%;
+    }
+
+    .wig-article {
+        width: 80%;
+        height: 80%;
+    }
+}
 
 
