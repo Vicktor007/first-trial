@@ -150,7 +150,7 @@ footer {
     font-size: 15px;
     text-align: center;
     padding-top: 10%;
-    height: 40%;
+    height: 20%;
  }
  .Newsletter h3 {
     text-align: start;
@@ -158,6 +158,10 @@ footer {
 
  footer a, footer p, footer input {
     font-size: 10px;
+ }
+
+ .about h3 {
+    text-align: left;
  }
 
  .about p {
@@ -180,4 +184,14 @@ footer {
 /* footer ends */
 
 
+
+@media (max-width: 600px) {
+    .Newsletter input {
+        width: 113%;
+    }
+
+    main div {
+        width: 40%;
+    }
+}
 
