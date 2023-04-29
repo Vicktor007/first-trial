@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 
@@ -113,8 +113,6 @@ main, .cards {
 }
 
 .cards {
-    width: 30%;
-    height: 100%;
     justify-content: center;
     margin-left: 5.5%;
 }
@@ -133,8 +131,8 @@ main, .cards {
     height: 20%;
 }
 
-.details {
-    width: 30%;
+.details, .cards{
+    width: 45%;
     height: 100%;
 }
 
@@ -171,7 +169,7 @@ main, .cards {
 
 section {
     width: 100%;
-    height: 30vw;
+    height: 25vh;
 }
 
 h2 {
@@ -179,12 +177,13 @@ h2 {
 }
 
 .card {
-    height: 90%;
+    height: 80%;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     column-gap: 3%;
+    margin-top: 5%;
 }
 
     .the-products {
@@ -207,6 +206,8 @@ footer {
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-top: 5vh;
+    background-color: black;
+    color: white;
 }
 
  .about, .shop, .support, .Newsletter {
@@ -229,8 +230,48 @@ footer {
  .shop a, .support a {
     display: block;
     height: 20%;
+    color: white;
  }
 
  .Newsletter p, .Newsletter input {
     margin-top: 5%;
+ }
+
+ @media (max-width: 600px) {
+
+    main {
+        justify-content: center;
+    }
+    .small-card {
+        display: none;
+    }
+
+    .cards {
+        height: 40%;
+        width: 90%;
+        margin-left: 0;
+    }
+
+    .big-card {
+        height: 100%;
+    }
+
+    .details{
+        width: 90%;
+        height: 50%;
+        text-align: center;
+       display: flex;
+       flex-direction: column;
+       justify-content: flex-start;
+       align-items: center;
+    }
+
+    .ratings {
+        width: 100%;
+    }
+
+
+    .Newsletter input  {
+        width: 113%;
+    }
  }
