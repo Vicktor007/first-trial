@@ -12,7 +12,7 @@ html {
     font-size: 15px;
 }
 
-header {
+/* header {
     height: 15vh;
     display: flex;
     flex-direction: column;
@@ -25,14 +25,14 @@ header {
     justify-content: space-evenly;
     align-content: center;
 
-}
+} */
 
 /* .search-logo-cart .search-div {
     width: 10%;
     height: 100%;
 } */
 
-.search-div, .title-logo {
+/* .search-div, .title-logo {
     width: 15%;
     height: 80%;
     display: flex;
@@ -40,53 +40,53 @@ header {
     justify-content: center;
     align-content: center;
     margin-left: -6%;
-}
-.search-div input {
+} */
+/* .search-div input {
     width: 70%;
     height: 60%;
-}
+} */
 
-.search-div button {
+/* .search-div button {
     width: 13%;
     height: 60%;
-}
+} */
 
-.search-div button img {
+/* .search-div button img {
     width: 100%;
     height: 100%;
-}
+} */
 
-.title-logo h1 {
+/* .title-logo h1 {
     width: 70%;
     display: inline-block;
-}
+} */
 
-.title-logo img {
-    width: 10%;
+/* .title-logo img {
+    width: 10%; */
     /* height: 100%; */
-    display: inline;
-}
+    /* display: inline;
+} */
 
-.search-logo-cart .cart-image {
+/* .search-logo-cart .cart-image {
     width: 5%;
     height: 48%;
     align-self: center;
-}
+} */
 
-.search-logo-cart, .categories {
+/* .search-logo-cart, .categories {
     height: 50%;
-    width: 100%;
+    width: 100%; */
     /* display: block; */
-}
+/* } */
 
-.categories {
+/* .categories {
     height: 50%;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     column-gap: 5%;
-}
+} */
 
 a {
     text-decoration: none;
@@ -131,11 +131,12 @@ main div p span {
 }
 
 footer {
-    height: 25vh;
+    height: 27vh;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    align-items: center;
     margin-top: 5vh;
     background-color: black;
     color: white;
@@ -149,8 +150,11 @@ footer {
  footer h3 {
     font-size: 15px;
     text-align: center;
-    padding-top: 10%;
     height: 20%;
+ }
+
+ .Newsletter{
+    width: 23%;
  }
  .Newsletter h3 {
     text-align: start;
@@ -163,7 +167,7 @@ footer {
  .about h3 {
     text-align: left;
  }
-
+ 
  .about p {
     height: 60%;
  }
@@ -180,15 +184,16 @@ footer {
     margin-top: 5%;
     
  }
+ 
+ .Newsletter .subscribe-button {
+    width: 50%;
+ }
 
 /* footer ends */
 
 
 
 @media (max-width: 600px) {
-    .Newsletter input {
-        width: 113%;
-    }
 
     main div {
         width: 40%;
