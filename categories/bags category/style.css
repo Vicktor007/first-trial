@@ -12,7 +12,7 @@ html {
     font-size: 15px;
 }
 
-header {
+/* header {
     height: 15vh;
     display: flex;
     flex-direction: column;
@@ -25,14 +25,14 @@ header {
     justify-content: space-evenly;
     align-content: center;
 
-}
+} */
 
 /* .search-logo-cart .search-div {
     width: 10%;
     height: 100%;
 } */
 
-.search-div, .title-logo {
+/* .search-div, .title-logo {
     width: 15%;
     height: 80%;
     display: flex;
@@ -62,9 +62,9 @@ header {
 }
 
 .title-logo img {
-    width: 10%;
+    width: 10%; */
     /* height: 100%; */
-    display: inline;
+    /* display: inline;
 }
 
 .search-logo-cart .cart-image {
@@ -75,9 +75,9 @@ header {
 
 .search-logo-cart, .categories {
     height: 50%;
-    width: 100%;
+    width: 100%; */
     /* display: block; */
-}
+/* }
 
 .categories {
     height: 50%;
@@ -86,7 +86,7 @@ header {
     align-items: center;
     justify-content: center;
     column-gap: 5%;
-}
+} */
 
 a {
     text-decoration: none;
