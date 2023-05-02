@@ -12,7 +12,7 @@ html {
     font-size: 15px;
 }
 
-header {
+/* header {
     height: 15vh;
     display: flex;
     flex-direction: column;
@@ -25,14 +25,14 @@ header {
     justify-content: space-evenly;
     align-content: center;
 
-}
+} */
 
 /* .search-logo-cart .search-div {
     width: 10%;
     height: 100%;
 } */
 
-.search-div, .title-logo {
+/* .search-div, .title-logo {
     width: 15%;
     height: 80%;
     display: flex;
@@ -59,34 +59,33 @@ header {
 .title-logo h1 {
     width: 70%;
     display: inline-block;
-}
+} */
 
-.title-logo img {
+/* .title-logo img {
     width: 10%;
-    /* height: 100%; */
+    height: 100%;
     display: inline;
-}
+} */
 
-.search-logo-cart .cart-image {
+/* .search-logo-cart .cart-image {
     width: 5%;
     height: 48%;
     align-self: center;
-}
+} */
 
-.search-logo-cart, .categories {
+/* .search-logo-cart, .categories {
     height: 50%;
     width: 100%;
-    /* display: block; */
-}
+} */
 
-.categories {
+/* .categories {
     height: 50%;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     column-gap: 5%;
-}
+} */
 
 a {
     text-decoration: none;
@@ -136,6 +135,7 @@ footer {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    align-items: center;
     margin-top: 5vh;
     background-color: black;
     color: white;
@@ -143,15 +143,20 @@ footer {
 
  .about, .shop, .support, .Newsletter {
     width: 20%;
-    height: 100%;
+    height: 80%;
  }
 
  footer h3 {
     font-size: 15px;
     text-align: center;
-    padding-top: 10%;
     height: 20%;
  }
+
+ .Newsletter{
+    width: 23%;
+ }
+
+
  .Newsletter h3 {
     text-align: start;
  }
@@ -178,15 +183,16 @@ footer {
 
  .Newsletter p, .Newsletter input {
     margin-top: 5%;
-    
+    width: 100%;
+ }
+
+ .Newsletter .subscribe-button {
+    width: 50%;
  }
 
 /* footer ends */
 
 @media (max-width: 600px) {
-    .Newsletter input {
-        width: 113%;
-    }
 
     main div {
         width: 40%;
