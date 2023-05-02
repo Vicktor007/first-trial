@@ -151,7 +151,6 @@ footer {
  footer h3 {
     font-size: 15px;
     text-align: center;
-    /* padding-top: 10%; */
     height: 20%;
  }
  .Newsletter  {
@@ -194,9 +193,6 @@ footer {
 /* footer ends */
 
 @media (max-width: 600px) {
-    .Newsletter input {
-        width: 100%;
-    }
 
     main div {
         width: 40%;
