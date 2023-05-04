@@ -189,6 +189,10 @@ footer {
     width: 100%;
  }
 
+ .Newsletter .subscribe-button {
+    width: 50%;
+ }
+
 /* footer ends */
 
 @media (max-width: 750px) {
