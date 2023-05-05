@@ -8,19 +8,22 @@
     }
     
     header {
-      height: 7vh;
-      background-color: #F3F3F3;
+      height: 13vh;
       display: flex;
+      flex-wrap: wrap;
       padding: .5rem;
       justify-content: space-between;
       align-items: center;
       gap: 1rem;
     }
 
+    header h1 {
+      height: 40%;
+    }
 
     nav {
       width: 60%;
-      height: 100%;
+      height: 40%;
     }
 
     button.button {
@@ -41,6 +44,7 @@
 
      .menu {
       background: url(./images/menu.svg);
+      visibility: hidden;
     }
 
     .div {
@@ -79,6 +83,16 @@
 
     .cart {
       background: url(images/shopping_cart.svg);
+    }
+
+
+    .categories {
+      display: flex;
+      justify-content: center;
+      column-gap: 2%;
+      width: 100%;
+      height: 40%;
+      margin-top: 0;
     }
     
     .link {
@@ -132,11 +146,6 @@
       background-repeat: no-repeat;
     }
     
-    .information-grid {
-      display: grid;
-      grid-template-columns: repeat(2, max-content);
-      gap: 2rem;
-    }
     
     .dropdown-links {
       display: flex;
@@ -146,4 +155,26 @@
     
     .login-form > input {
       margin-bottom: .5rem;
+    }
+
+    @media (max-width: 500px) {
+      .categories{
+        display: none;
+      }
+
+      header {
+        height: 7vh;
+      }
+
+      header h1 {
+        height: 100%;
+      }
+
+      nav {
+        height: 100%;
+      }
+
+      .menu {
+        visibility: visible;
+      }
     }
