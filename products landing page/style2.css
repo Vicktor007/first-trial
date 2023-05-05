@@ -60,18 +60,18 @@ main, .cards {
 }
 
 .quantity-control {
-    width: 40%;
-    height: 10%;
+    width: 50%;
+    height: 14%;
     display: flex;
     justify-content: center;
     align-items: center;
     column-gap: 9.3%;
     margin: 0 auto 0 auto;
-    
 }
 
 .ratings .qty {
-    width: 40%;
+    height: 15%;
+    width: 50%;
     text-align: center;
     margin: 0 auto 0 auto;
 }
@@ -88,11 +88,11 @@ main, .cards {
 
 section {
     width: 100%;
-    height: 25vh;
+    height: 30vh;
 }
 
 h2 {
-    height: 10%;
+    height: 13%;
 }
 
 .card {
@@ -106,8 +106,8 @@ h2 {
 }
 
     .the-products {
-      width: 20%;
-      height: 100%;
+      width: 22%;
+      height: 90%;
     }
 .the-products img {
 width: 100%;
