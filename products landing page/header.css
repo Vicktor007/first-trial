@@ -144,11 +144,6 @@
       background-repeat: no-repeat;
     }
     
-    /* .information-grid {
-      display: grid;
-      grid-template-columns: repeat(2, max-content);
-      gap: 2rem;
-    } */
     
     .dropdown-links {
       display: flex;
