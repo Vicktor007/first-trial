@@ -5,7 +5,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: 1px solid red; */
 }
 
 
@@ -14,91 +13,11 @@ html {
     font-size: 15px;
 }
 
-header {
-    height: 15vh;
-}
-
-.search-logo-cart, .categories {
-    height: 49%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    
-}
-
-.categories {
-    column-gap: 3%;
-    height: 50%;
-    width: 100%;
-}
-
-
-.search-div, .title-logo  {
-     height: 100%;
-     display: flex;
-     flex-wrap: wrap;
-     justify-content: center;
-     align-content: center;
-}
-
- .title-logo {
-    margin-left: 15%;
-    width: 10%;
-}
-
-.title-logo h1 {
-    font-size: 1.5rem;
-}
-
-.search-div {
-    margin-left: -20%;
-    width: 20%;
-}
-
-.search-div input {
-    width: 75%;
-    height: 40%;
-    border-radius: 5px 0 0 5px;
-    /* align-self: center; */
-}
-
-.search-div button {
-    width: 10%;
-    height: 40%;
-    border-radius: 0 5px 5px 0;
-    align-self: center;
-}
-
-.search-logo-cart .search-div img {
-     width: 100%;
-     height: 100%;
-     border-radius: 0 5px 5px 0;
-}
-
-
-.title-logo h1, .title-logo img {
-     height: 60%;
-}
-
-.title-logo img {
-    width: 20%;
-    height: 60%;
-    border-radius: 10px;
-}
-
-.cart-image {
-    width: 5%;
-    height: 100%;
-    margin-left: 10%;
-    border-radius: 10px;
-}
 
 a {
     text-decoration: none;
     color: black;
-    height: 50%;
     align-self: center;
-    padding-top: 0.2%;
 }
 
 
@@ -211,7 +130,7 @@ footer {
 }
 
  .about, .shop, .support, .Newsletter {
-    width: 20%;
+    width: 23%;
     height: 100%;
  }
 
@@ -235,6 +154,10 @@ footer {
 
  .Newsletter p, .Newsletter input {
     margin-top: 5%;
+ }
+
+ .Newsletter.subscribe {
+    width: 50%;
  }
 
  @media (max-width: 600px) {
@@ -272,6 +195,6 @@ footer {
 
 
     .Newsletter input  {
-        width: 113%;
+        width: 100%;
     }
  }

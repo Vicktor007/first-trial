@@ -5,8 +5,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: 1px solid red; */
 }
+
 html {
     scroll-behavior: smooth;
     font-size: 15px;
@@ -23,7 +23,7 @@ html {
 .hero-image h1 {
     height: 100%;
     font-size: 50px;
-    padding-top: 8%;
+    padding-top: 10%;
     padding-left: 8%;
 }
 
@@ -33,7 +33,7 @@ html {
 a {
     text-decoration: none;
     color: black;
-} */
+} 
 
 /* product cards section */
 .product-cards {
@@ -45,6 +45,7 @@ a {
     width: 100%;
     margin-top: 5%;
 }
+
 .product-cards, .product-cards div {
     display: flex;
     flex-direction: row;
@@ -62,10 +63,9 @@ a {
 height: 100%;
 width: 49%;
 text-align: center;
-
 }
 
-.product-cards h2, .product-cards div p {
+.product-cards h2, .product-cardsdiv p {
      text-align: center;  
 }
 
