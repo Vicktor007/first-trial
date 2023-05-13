@@ -2,19 +2,18 @@
     border: 1px solid red;
     margin: 0;
   }
-  
     
     header {
       height: 13vh;
       display: flex;
-      padding: .5rem;
       flex-wrap: wrap;
+      padding: .5rem;
       justify-content: space-between;
       align-items: center;
       gap: 1rem;
     }
 
-    h1{
+    header h1 {
       height: 40%;
     }
 
@@ -140,7 +139,7 @@
       background: url(./images/xmark-solid.svg) no-repeat center center/ cover;
     }
     
-
+    
     .dropdown-links {
       display: flex;
       flex-direction: column;
@@ -160,12 +159,12 @@
         height: 7vh;
       }
 
-      h1 {
+      header h1 {
         height: 100%;
       }
 
       nav {
-        height: 80%;
+        height: 100%;
       }
 
       .menu {
