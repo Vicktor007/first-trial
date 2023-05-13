@@ -1,11 +1,11 @@
-* {
+/* * {
     border: 1px solid red;
-  }
+  } */
   
-  body {
+  /* body {
       margin: 0;
       
-    }
+    } */
     
     header {
       height: 13vh;
@@ -31,7 +31,7 @@
       height: 100%;
       background-repeat: no-repeat;
       cursor: pointer;
-      border: 1px solid red;
+      /* border: 1px solid red; */
       text-decoration: none;
       color: #777;
       font-family: inherit;
@@ -96,7 +96,7 @@
     
     .link {
       background: none;
-      border: 1px solid red;
+      /* border: 1px solid red; */
       text-decoration: none;
       color: #777;
       font-family: inherit;
