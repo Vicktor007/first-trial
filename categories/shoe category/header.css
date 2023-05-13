@@ -9,8 +9,8 @@
     
     header {
       height: 13vh;
-      background-color: #F3F3F3;
       display: flex;
+      flex-wrap: wrap;
       padding: .5rem;
       justify-content: space-between;
       align-items: center;
@@ -30,7 +30,6 @@
     button.button {
       width: 25px;
       height: 100%;
-      background-size: cover;
       background-repeat: no-repeat;
       cursor: pointer;
       border: 1px solid red;
@@ -44,7 +43,7 @@
     
 
      .menu {
-      background: url(./images/menu.svg);
+      background: url(./images/menu.svg) center center/ contain;
       visibility: hidden;
     }
 
@@ -73,17 +72,17 @@
      .search {
       width: 17%;
       height: 100%;
-      background: url(./images/search.svg);
+      background: url(./images/search.svg) center center/ contain;
       border-radius: 50%;
     }
 
 
     .account {
-      background: url(images/account_circle_FILL0_wght0_GRAD0_opszNaN.svg);
+      background: url(images/account_circle_FILL0_wght0_GRAD0_opszNaN.svg) center center/ contain;
     }
 
     .cart {
-      background: url(images/shopping_cart.svg);
+      background: url(images/shopping_cart.svg) center center/ contain;
     }
 
     .categories {
@@ -142,9 +141,7 @@
     }
 
     .dropdown.active > button:focus {
-      background: url(./images/xmark-solid.svg);
-      background-size: contain;
-      background-repeat: no-repeat;
+      background: url(./images/xmark-solid.svg) no-repeat center center/ contain;
     }
     
     

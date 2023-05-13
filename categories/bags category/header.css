@@ -39,7 +39,7 @@
     
 
      .menu {
-      background: url(./images/menu.svg) center center/ cover;
+      background: url(./images/menu.svg) center center/ contain;
       visibility: hidden;
     }
 
@@ -68,17 +68,17 @@
      .search {
       width: 17%;
       height: 100%;
-      background: url(./images/search.svg) center center/ cover;
+      background: url(./images/search.svg) center center/ contain;
       border-radius: 50%;
     }
 
 
     .account {
-      background: url(images/account_circle_FILL0_wght0_GRAD0_opszNaN.svg) center center/ cover;
+      background: url(images/account_circle_FILL0_wght0_GRAD0_opszNaN.svg) center center/ contain;
     }
 
     .cart {
-      background: url(images/shopping_cart.svg) center center/ cover;
+      background: url(images/shopping_cart.svg) center center/ contain;
     }
 
     .categories {
@@ -136,7 +136,7 @@
     }
 
     .dropdown.active > button:focus {
-      background: url(./images/xmark-solid.svg) no-repeat center center/ cover;
+      background: url(./images/xmark-solid.svg) no-repeat center center/ contain;
     }
     
     
