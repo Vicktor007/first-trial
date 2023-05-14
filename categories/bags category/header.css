@@ -1,5 +1,4 @@
 * {
-    border: 1px solid red;
     margin: 0;
   }
     
@@ -28,7 +27,6 @@
       height: 100%;
       background-repeat: no-repeat;
       cursor: pointer;
-      border: 1px solid red;
       text-decoration: none;
       color: #777;
       font-family: inherit;
@@ -54,13 +52,14 @@
     .div:focus-within #search, #search:hover {
       visibility: visible;
       width: 85%;
+      transition: 0.5s;
     }
 
     #search {
       width: 3%;
       height: 100%;
       visibility: hidden;
-      transition: width linear 0.2s;
+      transition:  0.2s;
       border-radius: 10px 0 0 10px;
       border-left: none;
     }
