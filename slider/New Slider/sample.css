@@ -1,39 +1,84 @@
-*,*::before,*::after {
+* {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     border: 1px solid red;
 }
-
 body {
     height: 100vh;
-}
-
-.med {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    /* gap: 5% 10%; */
     justify-content: center;
+    align-items: center;
+    background: rgb(25,12,41);
+}
+.slider {
+    width: 100%;
+    /* overflow: hidden; */
+    height: 100%;
+}
+.images {
+    display: flex;
+    width: 100%;
+    height: 50%;
+}
+/* .images img {
+    height: 100%;
+    width: 100%;
+    transition: all 0.15s ease;
+    
+} */
+
+
+.m1,.m2,.m3,.m4, .m {
     height: 100%;
     width: 100%;
     transition: all 0.15s ease; 
 }
 
-.med div {
-    width: 40%;
-    height: 45%;
+
+
+.m2,.m3,.m4 {
+    display: none;
 }
 
-.med div img {
-    height: 70%;
-    width: 100%;
+.images input {
+    display: none;
+}
+.dots {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    color: white;
+    height: 20%;
 }
 
-.med div p {
-    text-align: center;
-}
 
-.med div p span {
-    display: block;
+.dots label {
+    height: 90%;
+    width: 20%;
+    
+    border: solid #fff 3px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.dots label:hover {background: #fff;}
+#img1:checked ~ .m1 {
+    margin-left: -0%;
+}
+#img2:checked ~ .m2 {
+    margin-left: -100%;
+    display: flex;
+}
+#img3:checked ~ .m3 {
+    margin-left: -100%;
+    display: flex;
+}
+#img4:checked ~ .m4 {
+    margin-left: -100%;
+    display: flex;
 }
