@@ -1,0 +1,39 @@
+*,*::before,*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid red;
+}
+
+body {
+    height: 100vh;
+}
+
+.med {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* gap: 5% 10%; */
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    transition: all 0.15s ease; 
+}
+
+.med div {
+    width: 40%;
+    height: 45%;
+}
+
+.med div img {
+    height: 70%;
+    width: 100%;
+}
+
+.med div p {
+    text-align: center;
+}
+
+.med div p span {
+    display: block;
+}

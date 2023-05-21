@@ -45,7 +45,7 @@ body {
 
 .med div {
     width: 40%;
-    height: 30%;
+    height: 50%;
 }
 
 .med div img {
@@ -99,7 +99,7 @@ body {
     align-items: center;
 
 }
-.dots label:hover, .dots label:focus {background: #fff;}
+.dots label:hover {background: #fff;}
 #img1:checked ~ .m1 {
     margin-left: -0%;
 }
