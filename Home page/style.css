@@ -178,6 +178,10 @@ footer {
     height: 90%;
  }
 
+ .about {
+    margin-right: 2%;
+ }
+
  .shop a, .support a {
     display: block;
     margin-top: 5%;
@@ -197,7 +201,7 @@ footer {
 
 @media (max-width: 750px) {
     .Newsletter input {
-        width: 100%;
+        width: 90%;
     }
 
     .product-cards {
