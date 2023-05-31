@@ -4,7 +4,7 @@ if (document.readyState == 'loading') {
     ready()
 }
 
-function ready() {
+export function ready() {
     var removeCartItemButtons = document.getElementsByClassName('btn-danger')
     for (var i = 0; i < removeCartItemButtons.length; i++) {
         var button = removeCartItemButtons[i]
@@ -26,7 +26,7 @@ function ready() {
     document.getElementsByClassName('btn-purchase')[0].addEventListener('click', purchaseClicked)
 }
 
-function purchaseClicked() {
+export function purchaseClicked() {
     alert('Thank you for your purchase')
     var cartItems = document.getElementsByClassName('cart-items')[0]
     while (cartItems.hasChildNodes()) {
@@ -35,13 +35,13 @@ function purchaseClicked() {
     updateCartTotal()
 }
 
-function removeCartItem(event) {
+export function removeCartItem(event) {
     var buttonClicked = event.target
     buttonClicked.parentElement.parentElement.remove()
     updateCartTotal()
 }
 
-function quantityChanged(event) {
+export function quantityChanged(event) {
     var input = event.target
     if (isNaN(input.value) || input.value <= 0) {
         input.value = 1
@@ -49,7 +49,7 @@ function quantityChanged(event) {
     updateCartTotal()
 }
 
-function addToCartClicked(event) {
+export function addToCartClicked(event) {
     var button = event.target
     var shopItem = button.parentElement.parentElement
     var title = shopItem.getElementsByClassName('shop-item-title')[0].innerText
@@ -59,7 +59,7 @@ function addToCartClicked(event) {
     updateCartTotal()
 }
 
-function addItemToCart(title, price, imageSrc) {
+export function addItemToCart(title, price, imageSrc) {
     var cartRow = document.createElement('div')
     cartRow.classList.add('cart-row')
     var cartItems = document.getElementsByClassName('cart-items')[0]
@@ -86,7 +86,7 @@ function addItemToCart(title, price, imageSrc) {
     cartRow.getElementsByClassName('cart-quantity-input')[0].addEventListener('change', quantityChanged)
 }
 
-function updateCartTotal() {
+export function updateCartTotal() {
     var cartItemContainer = document.getElementsByClassName('cart-items')[0]
     var cartRows = cartItemContainer.getElementsByClassName('cart-row')
     var total = 0
