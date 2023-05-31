@@ -24,10 +24,9 @@
       height: 40%;
     }
 
-    button.button {
+    .dropdown .button {
       width: 25px;
       height: 100%;
-      background-size: contain;
       background-repeat: no-repeat;
       cursor: pointer;
       border: 1px solid red;
@@ -41,8 +40,9 @@
     
 
      .menu {
-      background: url(./images/menu.svg);
+      background: url(./images/menu.svg) center center/ contain;
       visibility: hidden;
+      margin-left: 30px;
     }
 
     .div {
@@ -70,17 +70,17 @@
      .search {
       width: 17%;
       height: 100%;
-      background: url(./images/search.svg);
+      background: url(./images/search.svg) center center/ contain;
       border-radius: 50%;
     }
 
 
     .account {
-      background: url(images/account_circle_FILL0_wght0_GRAD0_opszNaN.svg);
+      background: url(images/account_circle_FILL0_wght0_GRAD0_opszNaN.svg) center center/ contain;
     }
 
     .cart {
-      background: url(images/shopping_cart.svg);
+      background: url(images/shopping_cart.svg) center center/ contain;
     }
 
     .categories {
@@ -138,8 +138,7 @@
     }
 
     .dropdown.active > button:focus {
-      background: url(./images/xmark-solid.svg);
-      background-size: contain;
+      background: url(./images/xmark-solid.svg) center center/ contain;
       background-repeat: no-repeat;
     }
     
